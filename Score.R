@@ -56,9 +56,7 @@ ggviolin(vln.dat, "seurat_clusters", "Score",
            color = "black",  
            width = 0.2,  
            linetype = 1)) +
-  theme(legend.position = "none")+
-labs(x = NULL, 
-     y = "Score",
-     title = NULL)
-ggsave("vln_score4.pdf",width = 4, height = 2, dpi=600)
+  theme(legend.position = "none")
+ggsave("vln_score.pdf",width = 4, height = 2, dpi=600)
+
 
